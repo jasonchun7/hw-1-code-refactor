@@ -7,44 +7,37 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* replaced .header to header as element selector */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-    display: inline-block;
-    font-size: 48px;
-    color: #d9dcd6;
 }
-
+/* removed .header */
 h1 {
     display: inline-block;
     font-size: 48px;
-    color: #d9dcd6;
 }
-
+/* removed .header and h1 tag */
 .seo {
     color: #d9dcd6;
 }
-
+/* replaced .header to header tag and replaced div tag with nav tag */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    list-style-type: none;
-    display: inline-block;
-    margin-left: 25px;
 }
-
+/* removed .header and div tag */
 ul {
     list-style-type: none;
     display: inline-block;
-    margin-left: 25px;
+    
 }
-
+/* removed .header, div tag, and ul tag */
 li {
     display: inline-block;
     margin-left: 25px;
@@ -58,7 +51,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* removed background-image URL and added image to html file using img src from local */
 .hero {
     height: 800px;
     width: 100%;
