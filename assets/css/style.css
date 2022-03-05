@@ -19,25 +19,27 @@ h1 {
     display: inline-block;
     font-size: 48px;
 }
-/* removed .header and h1 tag */
-.seo {
+/* removed .header and h1 tag, replaced class with id */
+#seo {
     color: #d9dcd6;
 }
-/* replaced .header to header tag and replaced div tag with nav tag */
-header nav {
+/* removed .header and replaced div tag with nav tag */
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    list-style-type: none;
 }
-/* removed .header and div tag */
+/* removed .header and div tag as there is only one ul in the html file*/
 ul {
     list-style-type: none;
     display: inline-block;
+    margin-left: 25px;
     
 }
-/* removed .header, div tag, and ul tag */
+/* removed .header, div and ul since there is only li in the html file */
 li {
     display: inline-block;
     margin-left: 25px;
@@ -51,8 +53,8 @@ a {
 p {
     font-size: 16px;
 }
-/* removed background-image URL and added image to html file using img src from local */
-.hero {
+/* removed background-image URL and added image to html file using img src from local, replaced class with id */
+#hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -64,13 +66,13 @@ p {
     float: left;
     margin-right: 25px;
 }
-
-.float-right {
+/* replaced class with id */
+#float-right {
     float: right;
     margin-left: 25px;
 }
-
-.content {
+/* replaced class with id */
+#content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -134,8 +136,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
-.search-engine-optimization {
+/* created a class of 'sections' for each section (apart from aside) as they all had the same CSS properties */
+.sections {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,48 +145,12 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* from the 'sections' class above, combined all 3 images into one selector as they all had the same property */
+.sections img {
     max-height: 200px;
 }
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+/* combined the 3 sections with the same h2 tags that had the same property */
+.sections h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
