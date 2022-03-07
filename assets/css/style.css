@@ -77,8 +77,8 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
-.benefits {
+/* removed class of 'benefits' to aside selector */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -88,54 +88,23 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-.benefit-lead {
+/* created class of benefits for the 3 div classes and removed benefit-lead, -brand, and -cost */
+.benefits {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* removed .benefit-lead, -brand, and -cost and just used h3 selector as there is only one h3 in the html file */
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* removed .benefit-brand img, -lead img, and -cost img and replaced with .benefit img */
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 /* created a class of 'sections' for each section (apart from aside) as they all had the same CSS properties */
 .sections {
     margin-bottom: 20px;
@@ -154,14 +123,14 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.footer {
+/* removed .footer with footer */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-.footer h2 {
+/* removed .footer with footer */
+footer h2 {
     font-size: 20px;
 }
