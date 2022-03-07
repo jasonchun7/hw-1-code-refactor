@@ -61,48 +61,11 @@ p {
     background-size: cover;
     background-position: center;
 }
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-/* replaced class with id */
-#float-right {
-    float: right;
-    margin-left: 25px;
-}
 /* replaced class with id */
 #content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-}
-/* removed class of 'benefits' to aside selector */
-aside {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-/* created class of benefits for the 3 div classes and removed benefit-lead, -brand, and -cost */
-.benefits {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-/* removed .benefit-lead, -brand, and -cost and just used h3 selector as there is only one h3 in the html file */
-h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-/* removed .benefit-brand img, -lead img, and -cost img and replaced with .benefit img */
-.benefits img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
 }
 
 /* created a class of 'sections' for each section (apart from aside) as they all had the same CSS properties */
@@ -123,6 +86,46 @@ h3 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* replaced class with id */
+#float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* removed class of 'benefits' to aside selector */
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* created class of benefits for the 3 div classes and removed benefit-lead, -brand, and -cost */
+.benefits {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* removed .benefit-lead, -brand, and -cost and just used h3 selector */
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* removed .benefit-brand img, -lead img, and -cost img and replaced with .benefit img */
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
 /* removed .footer with footer */
 footer {
     padding: 30px;
